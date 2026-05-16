@@ -11,8 +11,8 @@
         "node": ">=22.0.0"
     },
     "dependencies": {
-        "@routup/body": "^3.1.0",
-        "routup": "^5.1.0"
+        "@routup/body": "^4.0.0",
+        "routup": "^6.0.0-beta.0"
     },
     "devDependencies": {
         "@types/node": "^22.0.0",

@@ -1,11 +1,11 @@
 import 'reflect-metadata';
 
-import { Router, serve } from 'routup';
+import { App, serve } from 'routup';
 import { decorators } from '@routup/decorators';
 
 import { GreetController } from './controllers/greet.controller.ts';
 
-const router = new Router();
+const router = new App();
 
 router.use(decorators({
     controllers: [

@@ -1,12 +1,12 @@
-import { Router, defineCoreHandler, defineErrorHandler, serve } from 'routup';
-import { useRequestBody } from '@routup/body';
+import { App, defineCoreHandler, defineErrorHandler, serve } from 'routup';
+import { readRequestBody } from '@routup/body';
 
-const router = new Router();
+const router = new App();
 
 router.get('/health', defineCoreHandler(() => ({ status: 'ok' })));
 
 router.post('/echo', defineCoreHandler(async (event) => {
-    const body = await useRequestBody(event);
+    const body = await readRequestBody(event);
     return { received: body };
 }));
 

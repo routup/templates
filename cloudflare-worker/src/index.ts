@@ -1,6 +1,6 @@
-import { Router, defineCoreHandler } from 'routup/cloudflare';
+import { App, defineCoreHandler } from 'routup/cloudflare';
 
-const router = new Router();
+const router = new App();
 
 router.get('/', defineCoreHandler(() => ({
     message: 'Hello from routup on Cloudflare Workers!',
