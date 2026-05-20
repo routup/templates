@@ -12,7 +12,7 @@
     },
     "dependencies": {
         "@routup/body": "^4.0.0",
-        "routup": "^6.0.0-beta.0"
+        "routup": "^6.0.0"
     },
     "devDependencies": {
         "@types/node": "^22.0.0",

@@ -10,7 +10,7 @@
     "dependencies": {
         "@routup/decorators": "^5.0.0",
         "reflect-metadata": "^0.2.2",
-        "routup": "^6.0.0-beta.0"
+        "routup": "^6.0.0"
     },
     "devDependencies": {
         "@types/bun": "^1.1.0",
